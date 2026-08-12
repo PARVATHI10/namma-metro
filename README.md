@@ -1,20 +1,11 @@
-# Vite ⚡
+# Rolldown
 
-> Next Generation Frontend Tooling
+> Fast Rust-based bundler for JavaScript with Rollup-compatible API
 
-- 💡 Instant Server Start
-- ⚡️ Lightning Fast HMR
-- 🛠️ Rich Features
-- 📦 Optimized Build
-- 🔩 Universal Plugin Interface
-- 🔑 Fully Typed APIs
+- ⚡️ Lightning Fast Performance
+- 🔌 Rollup-Compatible APIs
+- ⏩ esbuild Feature Parity
 
-Vite (French word for "quick", pronounced [`/viːt/`](https://cdn.jsdelivr.net/gh/vitejs/vite@main/docs/public/vite.mp3), like "veet") is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:
+Rolldown is primarily designed to serve as the underlying bundler in [Vite](https://vite.dev/), with the goal to replace esbuild and Rollup with one unified build tool. Although designed for Vite, Rolldown is also fully capable of being used as a standalone, general-purpose bundler. It can serve as a drop-in replacement for Rollup in most cases, and can also be used as an esbuild alternative when better chunking control is needed.
 
-- A dev server that provides [rich feature enhancements](https://vite.dev/guide/features) over [native ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), for example extremely fast [Hot Module Replacement (HMR)](https://vite.dev/guide/features#hot-module-replacement).
-
-- A build command that bundles your code with [Rolldown](https://rolldown.rs), pre-configured to output highly optimized static assets for production.
-
-In addition, Vite is highly extensible via its [Plugin API](https://vite.dev/guide/api-plugin.html) and [JavaScript API](https://vite.dev/guide/api-javascript.html) with full typing support.
-
-[Read the Docs to Learn More](https://vite.dev).
+[Read the Docs to Learn More](https://rolldown.rs).
